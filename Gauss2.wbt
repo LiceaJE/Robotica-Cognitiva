@@ -1,0 +1,823 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/Parquetry.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/gctronic/e-puck/protos/E-puckGroundSensors.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/BrushedAluminium.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.6540251730307197 -0.0038271472975769465 0.756463102858097 3.1504500821701114
+  position 0.6993861317166761 0.022833632314692293 3.542021493336518
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 2 2
+  floorAppearance Parquetry {
+    type "light strip"
+  }
+  wallAppearance BrushedAluminium {
+    colorOverride 0 0 0
+    IBLStrength 0
+  }
+}
+DEF OBS Solid {
+  translation 0.039966420104728034 -0.18000756945076182 0.04963516728266377
+  rotation -0.04142992505888819 -0.9307430940729922 0.3633192179682323 0.00026198250435040255
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(10)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS Solid {
+  translation 0.30000305081208434 0.4700035810459769 0.04960766041940922
+  rotation -2.1658043531759452e-13 5.665744159775556e-13 1 0.00011074425260926588
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(9)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS Solid {
+  translation -0.0018158206133298666 0.8600165783593648 0.0496076604194092
+  rotation 3.3895251695822275e-12 -4.095496613769053e-12 -1 1.1329078369936191e-05
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(23)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS Solid {
+  translation 0.543887 -0.299446 0.0496076604194092
+  rotation -8.375526882194459e-14 -1.9518043851815445e-14 0.9999999999999999 8.155022588417256e-05
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(14)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS Solid {
+  translation 0.566746219322071 -0.8457911283995382 0.0496076604194092
+  rotation -3.532959297368697e-13 6.074282847902498e-13 0.9999999999999999 0.00012102738689237974
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(26)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS Solid {
+  translation 0.7681670627457935 0.1065719613626608 0.04960766041940921
+  rotation -4.1318313383452906e-11 -1.3686410264661706e-11 -1 8.063638004913117e-07
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(22)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS Solid {
+  translation -0.3535977943770802 0.0031748339523372682 0.04960766041949018
+  rotation 6.550883227219346e-09 -8.77796850737071e-09 1 2.1247125822879637e-05
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(8)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS Solid {
+  translation -0.8318976456829646 0.3225908173324945 0.04960766041944724
+  rotation 7.875049999778142e-09 -7.010417625218815e-09 1 3.1690024900161194e-05
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(20)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS Solid {
+  translation -0.6224110853416439 -0.31639805965308354 0.049607660419409214
+  rotation 4.065538174686514e-12 -7.271161503781895e-12 1 8.63760347345212e-06
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(16)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS Solid {
+  translation -0.5193689533398639 0.2977290312201097 0.049607660431600614
+  rotation 3.0735267395003114e-08 -5.6565081600811865e-08 0.999999999999998 0.005636015033157704
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(7)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS Solid {
+  translation -0.7329664202378355 0.7599957118921047 0.049607660495257506
+  rotation 5.299212711383547e-07 -1.2000480649073768e-05 0.9999999999278538 2.599672974698762e-05
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(19)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF LATA1 Solid {
+  translation -0.573624 -0.680018 0.0149963
+  rotation 0.0008966559576088904 -0.006273866172469288 -0.9999799171040105 9.492788832580192e-15
+  children [
+    PointLight {
+      attenuation 1 1 0
+      color 0 1 0
+      intensity 4
+      radius 0.2
+    }
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.1 1 0
+        }
+      }
+      geometry Cylinder {
+        height 0.03
+        radius 0.01
+      }
+    }
+  ]
+  name "solid(27)"
+  boundingObject Cylinder {
+    height 0.03
+    radius 0.01
+  }
+  physics Physics {
+  }
+}
+DEF LATA2 Solid {
+  translation 0.0747503 0.596902 0.0149963
+  rotation -3.1791008420647416e-14 1.0378645304050521e-14 0.9999999999999999 0.003830547271054132
+  children [
+    PointLight {
+      attenuation 1 1 0
+      color 0 1 0
+      intensity 4
+      radius 0.2
+    }
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.1 1 0
+        }
+      }
+      geometry Cylinder {
+        height 0.03
+        radius 0.01
+      }
+    }
+  ]
+  name "solid(11)"
+  boundingObject Cylinder {
+    height 0.03
+    radius 0.01
+  }
+  physics Physics {
+  }
+}
+DEF LATA3 Solid {
+  translation 0.67745 0.389489 0.0149963
+  rotation 0.005576364879704815 0.00010538118188980197 -0.9999844464038103 5.745940774525824e-15
+  children [
+    PointLight {
+      attenuation 1 1 0
+      color 0 1 0
+      intensity 4
+      radius 0.2
+    }
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.1 1 0
+        }
+      }
+      geometry Cylinder {
+        height 0.03
+        radius 0.01
+      }
+    }
+  ]
+  name "solid(1)"
+  boundingObject Cylinder {
+    height 0.03
+    radius 0.01
+  }
+  physics Physics {
+  }
+}
+DEF LATA4 Solid {
+  translation 0.5474499999999998 -0.44541667455128237 0.014996301717128194
+  rotation -0.0009535967279236294 -0.005736240964509014 -0.9999830929535147 1.9386356250548048e-14
+  children [
+    PointLight {
+      attenuation 1 1 0
+      color 0 1 0
+      intensity 4
+      radius 0.2
+    }
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.1 1 0
+        }
+      }
+      geometry Cylinder {
+        height 0.03
+        radius 0.01
+      }
+    }
+  ]
+  name "solid(2)"
+  boundingObject Cylinder {
+    height 0.03
+    radius 0.01
+  }
+  physics Physics {
+  }
+}
+DEF LATA5 Solid {
+  translation -0.232549 0.258644 0.0149963
+  rotation 0.010656891988152931 -0.004378391044154408 -0.9999336279698855 1.8321887710262022e-14
+  children [
+    PointLight {
+      attenuation 1 1 0
+      color 0 1 0
+      intensity 4
+      radius 0.2
+    }
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.1 1 0
+        }
+      }
+      geometry Cylinder {
+        height 0.03
+        radius 0.01
+      }
+    }
+  ]
+  name "solid(28)"
+  boundingObject Cylinder {
+    height 0.03
+    radius 0.01
+  }
+  physics Physics {
+  }
+}
+DEF LATA6 Solid {
+  translation -0.822549 0.194061 0.01499630228992763
+  rotation 0.5474980831782825 -0.5772024199929073 -0.6058739268778927 6.396847447861872e-16
+  children [
+    PointLight {
+      attenuation 1 1 0
+      color 0 1 0
+      intensity 4
+      radius 0.2
+    }
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.1 1 0
+        }
+      }
+      geometry Cylinder {
+        height 0.03
+        radius 0.01
+      }
+    }
+  ]
+  name "solid(29)"
+  boundingObject Cylinder {
+    height 0.03
+    radius 0.01
+  }
+  physics Physics {
+  }
+}
+DEF LATA7 Solid {
+  translation -0.027486 -0.505821 0.0149963
+  rotation 1.920319963866416e-13 5.649196169608749e-14 1 0.0006300957905081837
+  children [
+    PointLight {
+      attenuation 1 1 0
+      color 0 1 0
+      intensity 4
+      radius 0.2
+    }
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0.1 1 0
+        }
+      }
+      geometry Cylinder {
+        height 0.03
+        radius 0.01
+      }
+    }
+  ]
+  name "solid(25)"
+  boundingObject Cylinder {
+    height 0.03
+    radius 0.01
+  }
+  physics Physics {
+  }
+}
+DEF Inicio1 Solid {
+  translation 0.001927 -0.882479 0.0001
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Plane {
+        size 0.25 0.25
+      }
+    }
+  ]
+  name "solid(3)"
+}
+DEF Inicio2 Solid {
+  translation -0.738073 -0.102479 0.0001
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Plane {
+        size 0.25 0.25
+      }
+    }
+  ]
+  name "solid(30)"
+}
+DEF Inicio3 Solid {
+  translation 0.591927 0.487521 0.0001
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Plane {
+        size 0.25 0.25
+      }
+    }
+  ]
+  name "solid(31)"
+}
+DEF Inicio4 Solid {
+  translation 0.591927 -0.512479 0.0001
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Plane {
+        size 0.25 0.25
+      }
+    }
+  ]
+  name "solid(32)"
+}
+DEF Inicio5 Solid {
+  translation -0.448073 0.487521 0.0001
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Plane {
+        size 0.25 0.25
+      }
+    }
+  ]
+  name "solid(33)"
+}
+DEF Inicio6 Solid {
+  translation -0.148073 -0.102479 0.0001
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Plane {
+        size 0.25 0.25
+      }
+    }
+  ]
+  name "solid(34)"
+}
+DEF OBS Solid {
+  translation 5.57477527849429e-07 0.45001884723225577 0.04960761342372685
+  rotation 0.0036195628709635766 -0.006511510225860786 -0.9999722491145451 5.74143831769416e-05
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(4)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS Solid {
+  translation -0.25179207679838506 0.718950708373985 0.049607660419409186
+  rotation -6.325974792681704e-11 1.8319060097747398e-11 1 4.982861568252911e-06
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(13)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS Solid {
+  translation 0.4646996688630943 0.8077766565609263 0.0496076
+  rotation 1.171939750437294e-13 -1.0639982263295238e-13 -1 0.0003638338145285116
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(12)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS Solid {
+  translation 0.36001509837323126 0.07999878907028371 0.04960766041940921
+  rotation -2.746697308023257e-12 -2.366684040387766e-13 -1 9.260594462652365e-05
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(6)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS_2 Solid {
+  translation -0.8017430000008545 -0.6878730000001949 0.0496076604194092
+  rotation -6.778309408408157e-15 -1.3193065940825926e-15 1 0.00818901069680585
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(5)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS_2 Solid {
+  translation -0.4645114158465771 -0.8318310293142532 0.0496076604194092
+  rotation -1.030373016263801e-12 1.4366110885337848e-12 1 4.1938304804402676e-05
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(15)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS_2 Solid {
+  translation -0.237857 -0.511911 0.0496076604194092
+  rotation -3.8593297256272243e-13 8.993023336130241e-14 1 9.173412369795258e-05
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(24)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS_2 Solid {
+  translation 0.833831 0.572205 0.0496076604194092
+  rotation -1.225381774089437e-12 -1.3708815339786253e-12 -1 3.6537061020833256e-05
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(21)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS_2 Solid {
+  translation 0.1696659405210897 -0.6150953592030918 0.0496076604194092
+  rotation -4.441167977274374e-13 1.8697978529326333e-13 -1 9.104887572024864e-05
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(18)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF OBS_2 Solid {
+  translation 0.8549694630170015 -0.45886287306247614 0.04960766041940923
+  rotation 4.211539049110046e-13 -2.300186633165313e-13 -1 0.0002151341066101714
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 0 0 0
+        }
+      }
+      geometry Box {
+        size 0.1 0.1 0.1
+      }
+    }
+  ]
+  name "solid(17)"
+  boundingObject Box {
+    size 0.1 0.1 0.1
+  }
+  physics Physics {
+  }
+}
+DEF supervisor Robot {
+  children [
+    Receiver {
+      channel 1
+    }
+    Emitter {
+      channel 1
+    }
+  ]
+  controller "supervisor_2"
+  supervisor TRUE
+}
+DEF EPUCK_ENTRENANDO E-puck {
+  hidden position_0_0 8910.979691141052
+  hidden position_0_1 9194.53297948223
+  hidden rotation_1 0 1 0 1.4229255603985473
+  hidden rotation_2 0 -1 0 4.050310228684527
+  translation 0.359281 -0.478109 -0.00100686
+  rotation 0.001148609284410703 -0.0007273607542807581 0.9999990758210953 2.211180477388488
+  controller "babbling2"
+  groundSensorsSlot [
+    E-puckGroundSensors {
+    }
+  ]
+}
